@@ -6,7 +6,7 @@ Numeric X, Y
 
 IF Temp = null ! RH = null then     
 
-// condição necessária para manter o script em loop
+// if não executa nada, mas é necessário para manter o programa em looping caso o servidor perca a referencia do sensor
 
 Else
 	X = ln(RH/100)
